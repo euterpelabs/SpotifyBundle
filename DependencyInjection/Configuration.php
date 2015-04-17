@@ -1,6 +1,6 @@
 <?php
 
-namespace EuterpeLabs\SpotifyBundle\DependencyInjection;
+namespace Euterpe\SpotifyBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('euterpelabs_spotify');
+        $rootNode = $treeBuilder->root('euterpe_spotify');
 
         return $treeBuilder;
     }
